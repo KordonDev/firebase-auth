@@ -1,0 +1,13 @@
+{
+    "users": [
+        {
+            "loginCode": "12345",
+            "key": "1234567890",
+            "name": "Daniel und Jenny"
+        }, {
+            "loginCode": "hochzeit",
+            "key": "hochzeit112",
+            "name": "Hochzeitspaar"
+        }
+    ]
+}
