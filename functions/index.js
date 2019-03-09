@@ -9,7 +9,7 @@ const invitedUsers = require('./passwd.json').users;
 
 firebaseAdmin.initializeApp({
     credential: firebaseAdmin.credential.cert(serviceAccount),
-    databaseURL: 'https://marriage-test.firebaseio.com/'
+    databaseURL: 'https://my-awesome-marriage.firebaseio.com'
 });
 
 exports.authenticationRequest = functions.https.onRequest((req, res) => {
