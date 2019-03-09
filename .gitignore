@@ -4,6 +4,7 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+passwd.json
 
 # Runtime data
 pids
@@ -78,3 +79,5 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+serviceAccount.json
