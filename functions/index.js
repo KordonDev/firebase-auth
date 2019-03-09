@@ -2,8 +2,8 @@ const functions = require('firebase-functions');
 
 const firebaseAdmin = require('firebase-admin');
 
-const serviceAccount = require('../serviceAccount.json');
-const invitedUsers = require('../passwd.json').users;
+const serviceAccount = require('./serviceAccount.json');
+const invitedUsers = require('./passwd.json').users;
 
 firebaseAdmin.initializeApp({
     credential: firebaseAdmin.credential.cert(serviceAccount),

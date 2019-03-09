@@ -5,8 +5,6 @@
   "author": "Arne_Maier@gmx.de",
   "license": "MIT",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
     "firebase-admin": "^6.4.0"
   }
 }
